@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <div class="contenedor">
+
+                <div class="tdocumento">
+                    <label for="">Tipo de documento</label>
+                    <select name="doc" id="documento">
+                        <option value="" name="doc">Elige un opción</option>
+                        <option value="cc" name="doc">Cédula</option>
+                        <option value="ti" name="doc">Targeta de identidad</option>
+                        <option value="rc" name="doc">Registro civil</option>
+                    </select>
+                </div>
+
+                <div class="municipio">
+                    <label for="city">Ciudad</label>
+                    <label for="">Medellín</label>
+                    <input type="radio" name="city" id="">
+                    <label for="">Bogotá D.C.</label>
+                    <input type="radio" name="city" id="">
+                    <label for="">Cali</label>
+                    <input type="radio" name="city" id="">
+                </div>
+
+                <div class="musica">
+                    <label for="musica">Genero musical</label>
+                    <label for="">Rock/metal</label>
+                    <input type="checkbox" name="musica" id="">
+                    <label for="">Pop.</label>
+                    <input type="checkbox" name="musica" id="">
+                    <label for="">Cumbia</label>
+                    <input type="checkbox" name="musica" id="">
+                </div>
+                <div class="teclas">
+                    <h3>Key down</h3>
+                    <input type="text" id="espacio" placeholder="Ecribir">
+                    <p id="estado"></p>
+                </div>
+                <img src="./channels4_profile.jpg" alt="Img1" id="Myimg1">
+                <div class="boton">
+                    <button type="submit">Submit</button>
+                    <button type="reset">reset</button>
+                </div>
+
+                <button id="refresh">Recargar</button>
+            </div>
+        </form>
+
+
+    </main>
+    <script src="./scrpt.js"></script>
+</body>
+
+</html>

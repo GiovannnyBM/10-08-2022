@@ -1,0 +1,20 @@
+.contenedor{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+}
+.teclas{
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 30px;
+}
+
+img{
+    max-width: 200px;
+    min-height: 200px;
+    justify-content: center;
+    text-align: center;
+}
